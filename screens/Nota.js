@@ -49,7 +49,6 @@ export default function Nota({ route }) {
   const modificarNota = async () => {
     const index = notas.findIndex((obj) => obj === notaUnica);
     const nuevoArreglo = await notas.fill(cambio, index);
-    console.log(nuevoArreglo);
     await AsyncStorage.setItem("NOTAS2", JSON.stringify(nuevoArreglo)).then(
       () => navigation.navigate("ListaNotas")
     );
