@@ -91,6 +91,21 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#252525",
   },
+  title: {
+    textAlign: "left",
+    fontSize: 43,
+    paddingBottom: 30,
+  },
+  input: {
+    maxHeight: 320,
+    height: "80%",
+    color: "#fff",
+    textAlignVertical: "top",
+    paddingVertical: 0,
+    fontSize: 22,
+    borderBottomWidth: 1,
+    borderColor: "#fff",
+  },
   contador: {
     fontSize: 18,
     alignSelf: "flex-end",
@@ -112,23 +127,5 @@ const styles = StyleSheet.create({
         elevation: 10,
       },
     }),
-  },
-  title: {
-    textAlign: "left",
-    fontSize: 43,
-    paddingBottom: 30,
-  },
-  icon: {
-    transform: [{ scale: 4 }],
-  },
-  input: {
-    maxHeight: 320,
-    height: "80%",
-    color: "#fff",
-    textAlignVertical: "top",
-    paddingVertical: 0,
-    fontSize: 22,
-    borderBottomWidth: 1,
-    borderColor: "#fff",
   },
 });

@@ -112,24 +112,15 @@ const styles = StyleSheet.create({
     paddingTop: 50,
     backgroundColor: "#252525",
   },
+  buttonGroup: {
+    flexDirection: "row",
+  },
   title: {
     textAlign: "left",
     fontSize: 43,
     paddingBottom: 45,
     marginTop: 4,
     width: 235,
-  },
-  input: {
-    flex: 1,
-    color: "#fff",
-    fontSize: 17,
-    //borderBottomWidth: 1,
-    borderColor: "#fff",
-    includeFontPadding: false,
-    paddingVertical: 0,
-  },
-  buttonGroup: {
-    flexDirection: "row",
   },
   button: {
     margin: 7,
@@ -142,5 +133,13 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     height: "65%",
+  },
+  input: {
+    flex: 1,
+    color: "#fff",
+    fontSize: 17,
+    borderColor: "#fff",
+    includeFontPadding: false,
+    paddingVertical: 0,
   },
 });
